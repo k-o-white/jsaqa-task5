@@ -1,0 +1,25 @@
+{
+  "name": "jsaqa-task5",
+  "version": "1.0.0",
+  "description": "Fifit task for the Web UI test automation course",
+  "homepage": "https://github.com/k-o-white/jsaqa-task5#readme",
+  "bugs": {
+    "url": "https://github.com/k-o-white/jsaqa-task5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/k-o-white/jsaqa-task5.git"
+  },
+  "license": "ISC",
+  "author": "Kirill Burilichev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^13.3.2"
+  }
+}
